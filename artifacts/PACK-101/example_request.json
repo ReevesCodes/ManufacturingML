@@ -1,0 +1,12 @@
+{
+  "machine_code": "PACK-101",
+  "readings": {
+    "bond_head_temperature_c": 153.91,
+    "bonding_force_n": 8.414,
+    "vacuum_pickup_kpa": 63.647,
+    "alignment_error_um": 1.58,
+    "ultrasonic_power_w": 25.738,
+    "head_vibration_mm_s": 0.335,
+    "hours_since_maintenance": 0.0
+  }
+}

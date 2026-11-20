@@ -1,0 +1,11 @@
+{
+  "machineId": "CLN-102",
+  "machineCode": "CLN-102",
+  "failurePrediction": 0,
+  "failureProbability": 0.0,
+  "riskLevel": "LOW",
+  "predictionHorizonHours": 12,
+  "decisionThreshold": 0.3500000000000001,
+  "modelVersion": "CLN-102-SYN-RF-v2",
+  "isSimulated": true
+}

@@ -1,0 +1,12 @@
+{
+  "machine_code": "DEP-101",
+  "readings": {
+    "chamber_pressure_pa": 126.372,
+    "substrate_temperature_c": 350.521,
+    "precursor_flow_sccm": 77.785,
+    "deposition_rate_nm_min": 24.144,
+    "rf_power_w": 584.666,
+    "exhaust_pump_vibration_mm_s": 0.83,
+    "hours_since_maintenance": 0.0
+  }
+}

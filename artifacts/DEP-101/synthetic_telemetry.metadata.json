@@ -1,0 +1,77 @@
+{
+  "machine_code": "DEP-101",
+  "is_simulated": true,
+  "data_origin": "Synthetic equipment simulation; not real machine data",
+  "profile": {
+    "planned": [
+      130,
+      220
+    ],
+    "drift_a": [
+      0.0025,
+      0.0055
+    ],
+    "drift_b": [
+      0.0015,
+      0.0045
+    ],
+    "baseline": [
+      120.0,
+      350.0,
+      80.0,
+      25.0,
+      600.0,
+      0.8
+    ],
+    "noise": [
+      3,
+      3,
+      1.5,
+      0.6,
+      12,
+      0.12
+    ],
+    "response_a": [
+      45,
+      8,
+      -20,
+      -10,
+      30,
+      0.5
+    ],
+    "response_b": [
+      12,
+      35,
+      -5,
+      -3,
+      50,
+      3
+    ],
+    "failure_modes": [
+      "chamber_coating_trip",
+      "heater_exhaust_trip"
+    ],
+    "family": "deposition",
+    "simulator": "equipment-competing-stress-v1",
+    "seed": 30101,
+    "model_seed": 30108,
+    "model_version_suffix": "SYN-RF-v1",
+    "budget_a": [
+      9.0,
+      4.5
+    ],
+    "budget_b": [
+      7.0,
+      5.0
+    ],
+    "stress_noise_sigma": 0.3
+  },
+  "cycles": 180,
+  "seed": 30101,
+  "horizon_hours": 12,
+  "label_rule": "First equipment-specific stress budget crossing in (t, t+12]; censored maintenance tails excluded",
+  "event_audit_file": "synthetic_cycle_events.csv",
+  "event_audit_sha256": "1295ace3a79ff1fc44bd4ffc8a57bf0cc3aba96260db2d35bc7294bb9e41b6d2",
+  "event_audit_is_model_input": false,
+  "maintenance_age_rule": "Elapsed hourly cycle time, starting at zero after each maintenance reset"
+}

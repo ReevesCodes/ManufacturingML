@@ -1,0 +1,12 @@
+{
+  "machine_code": "ETCH-101",
+  "readings": {
+    "chamber_pressure_mtorr": 41.113,
+    "rf_forward_power_w": 1167.72,
+    "rf_reflected_power_w": 16.903,
+    "process_gas_flow_sccm": 81.542,
+    "electrode_temperature_c": 53.024,
+    "vacuum_pump_vibration_mm_s": 1.103,
+    "hours_since_maintenance": 0.0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "machine_code": "MET-101",
+  "is_simulated": true,
+  "data_origin": "Synthetic equipment simulation; not real machine data",
+  "profile": {
+    "planned": [
+      160,
+      250
+    ],
+    "drift_a": [
+      0.002,
+      0.0048
+    ],
+    "drift_b": [
+      0.0015,
+      0.0045
+    ],
+    "baseline": [
+      5.0,
+      0.4,
+      0.0,
+      0.015,
+      22.0,
+      40.0
+    ],
+    "noise": [
+      0.1,
+      0.08,
+      0.5,
+      0.008,
+      0.2,
+      0.6
+    ],
+    "response_a": [
+      -2,
+      2.5,
+      12,
+      0.03,
+      2,
+      -10
+    ],
+    "response_b": [
+      -0.4,
+      0.8,
+      6,
+      0.12,
+      3,
+      -3
+    ],
+    "failure_modes": [
+      "detector_noise_trip",
+      "reference_stability_trip"
+    ],
+    "family": "metrology",
+    "simulator": "equipment-competing-stress-v1",
+    "seed": 60101,
+    "model_seed": 60108,
+    "model_version_suffix": "SYN-RF-v1",
+    "budget_a": [
+      9.0,
+      4.5
+    ],
+    "budget_b": [
+      7.0,
+      5.0
+    ],
+    "stress_noise_sigma": 0.3
+  },
+  "cycles": 180,
+  "seed": 60101,
+  "horizon_hours": 12,
+  "label_rule": "First equipment-specific stress budget crossing in (t, t+12]; censored maintenance tails excluded",
+  "event_audit_file": "synthetic_cycle_events.csv",
+  "event_audit_sha256": "408cd0428c098a806a68206d31b958992adaa91493e567f1a52bab502abdf3d4",
+  "event_audit_is_model_input": false,
+  "maintenance_age_rule": "Elapsed hourly cycle time, starting at zero after each maintenance reset"
+}

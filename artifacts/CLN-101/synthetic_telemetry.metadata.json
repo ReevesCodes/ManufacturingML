@@ -1,0 +1,37 @@
+{
+  "machine_code": "CLN-101",
+  "is_simulated": true,
+  "profile": {
+    "seed": 42,
+    "planned": [
+      95,
+      170
+    ],
+    "drift": [
+      0.0032,
+      0.0095
+    ],
+    "baseline": [
+      35.5,
+      100.5,
+      0.9,
+      18.5,
+      4.0,
+      6.6
+    ],
+    "sensitivity": [
+      10.0,
+      7.2,
+      4.0,
+      -6.0,
+      9.0,
+      4.3
+    ],
+    "hazard_onset": 0.48,
+    "hazard_slope": 0.24
+  },
+  "cycles": 180,
+  "seed": 42,
+  "horizon_hours": 12,
+  "label_rule": "Future sampled failure in (t, t+12]; censored tails excluded"
+}

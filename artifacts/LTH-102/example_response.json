@@ -1,0 +1,11 @@
+{
+  "machineId": "LTH-102",
+  "machineCode": "LTH-102",
+  "failurePrediction": 0,
+  "failureProbability": 0.0,
+  "riskLevel": "LOW",
+  "predictionHorizonHours": 12,
+  "decisionThreshold": 0.20000000000000004,
+  "modelVersion": "LTH-102-SYN-RF-v1",
+  "isSimulated": true
+}

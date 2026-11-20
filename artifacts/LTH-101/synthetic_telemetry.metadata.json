@@ -1,0 +1,77 @@
+{
+  "machine_code": "LTH-101",
+  "is_simulated": true,
+  "data_origin": "Synthetic equipment simulation; not real machine data",
+  "profile": {
+    "planned": [
+      140,
+      230
+    ],
+    "drift_a": [
+      0.002,
+      0.005
+    ],
+    "drift_b": [
+      0.0015,
+      0.004
+    ],
+    "baseline": [
+      120.0,
+      0.0,
+      0.03,
+      20.0,
+      22.0,
+      0.15
+    ],
+    "noise": [
+      2.5,
+      0.05,
+      0.02,
+      0.5,
+      0.3,
+      0.04
+    ],
+    "response_a": [
+      -15,
+      0.6,
+      0.04,
+      -5,
+      3,
+      0.1
+    ],
+    "response_b": [
+      3,
+      0.15,
+      0.35,
+      -1,
+      2,
+      0.7
+    ],
+    "failure_modes": [
+      "illumination_optics_trip",
+      "focus_stage_trip"
+    ],
+    "family": "lithography",
+    "simulator": "equipment-competing-stress-v1",
+    "seed": 20101,
+    "model_seed": 20108,
+    "model_version_suffix": "SYN-RF-v1",
+    "budget_a": [
+      9.0,
+      4.5
+    ],
+    "budget_b": [
+      7.0,
+      5.0
+    ],
+    "stress_noise_sigma": 0.3
+  },
+  "cycles": 180,
+  "seed": 20101,
+  "horizon_hours": 12,
+  "label_rule": "First equipment-specific stress budget crossing in (t, t+12]; censored maintenance tails excluded",
+  "event_audit_file": "synthetic_cycle_events.csv",
+  "event_audit_sha256": "00bd5035435f523dc69fb0b663439c8a9b20c617b84225457642f013e4a7ac36",
+  "event_audit_is_model_input": false,
+  "maintenance_age_rule": "Elapsed hourly cycle time, starting at zero after each maintenance reset"
+}

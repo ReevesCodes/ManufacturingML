@@ -1,0 +1,12 @@
+{
+  "machine_code": "CLN-101",
+  "readings": {
+    "chamber_temperature_c": 37.315,
+    "chamber_pressure_kpa": 100.666,
+    "pump_vibration_mm_s": 1.285,
+    "chemical_flow_l_min": 17.146,
+    "filter_diff_pressure_kpa": 5.627,
+    "motor_current_a": 7.487,
+    "hours_since_maintenance": 0.0
+  }
+}

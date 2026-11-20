@@ -1,0 +1,11 @@
+{
+  "machineId": "INSP-101",
+  "machineCode": "INSP-101",
+  "failurePrediction": 0,
+  "failureProbability": 0.0,
+  "riskLevel": "LOW",
+  "predictionHorizonHours": 12,
+  "decisionThreshold": 0.30000000000000004,
+  "modelVersion": "INSP-101-SYN-RF-v1",
+  "isSimulated": true
+}

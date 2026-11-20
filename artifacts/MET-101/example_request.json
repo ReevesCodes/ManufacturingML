@@ -1,0 +1,12 @@
+{
+  "machine_code": "MET-101",
+  "readings": {
+    "laser_power_mw": 4.796,
+    "detector_noise_mv": 0.663,
+    "reference_drift_nm": 2.072,
+    "stage_repeatability_um": 0.032,
+    "enclosure_temperature_c": 22.695,
+    "interferometer_signal_db": 38.321,
+    "hours_since_maintenance": 0.0
+  }
+}

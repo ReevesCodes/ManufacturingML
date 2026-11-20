@@ -1,0 +1,11 @@
+{
+  "machineId": "CMP-101",
+  "machineCode": "CMP-101",
+  "failurePrediction": 0,
+  "failureProbability": 0.0,
+  "riskLevel": "LOW",
+  "predictionHorizonHours": 12,
+  "decisionThreshold": 0.3500000000000001,
+  "modelVersion": "CMP-101-SYN-RF-v1",
+  "isSimulated": true
+}

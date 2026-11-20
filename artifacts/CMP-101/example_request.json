@@ -1,0 +1,12 @@
+{
+  "machine_code": "CMP-101",
+  "readings": {
+    "platen_speed_rpm": 59.927,
+    "downforce_kpa": 26.388,
+    "slurry_flow_ml_min": 201.051,
+    "pad_temperature_c": 30.334,
+    "motor_current_a": 8.029,
+    "platen_vibration_mm_s": 0.669,
+    "hours_since_maintenance": 0.0
+  }
+}

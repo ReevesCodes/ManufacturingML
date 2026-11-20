@@ -1,0 +1,12 @@
+{
+  "machine_code": "LTH-101",
+  "readings": {
+    "exposure_dose_mj_cm2": 119.658,
+    "focus_error_um": 0.164,
+    "stage_position_error_um": 0.043,
+    "illumination_intensity_mw_cm2": 19.313,
+    "lens_temperature_c": 22.507,
+    "stage_vibration_mm_s": 0.242,
+    "hours_since_maintenance": 0.0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "machine_code": "INSP-101",
+  "readings": {
+    "illumination_intensity_mw_cm2": 7.715,
+    "camera_temperature_c": 30.994,
+    "focus_error_um": 0.086,
+    "stage_position_error_um": 0.029,
+    "image_noise_dn": 2.902,
+    "stage_vibration_mm_s": 0.159,
+    "hours_since_maintenance": 0.0
+  }
+}

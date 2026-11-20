@@ -1,0 +1,11 @@
+{
+  "machineId": "MET-101",
+  "machineCode": "MET-101",
+  "failurePrediction": 0,
+  "failureProbability": 0.0,
+  "riskLevel": "LOW",
+  "predictionHorizonHours": 12,
+  "decisionThreshold": 0.25000000000000006,
+  "modelVersion": "MET-101-SYN-RF-v1",
+  "isSimulated": true
+}

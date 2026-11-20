@@ -1,0 +1,50 @@
+{
+  "machine_code": "ETCH-101",
+  "is_simulated": true,
+  "data_origin": "Synthetic equipment simulation; not real machine data",
+  "profile": {
+    "seed": 10101,
+    "simulator": "etch-competing-stress-v2",
+    "planned": [
+      120,
+      240
+    ],
+    "pressure_setpoint_mtorr": [
+      30.0,
+      60.0
+    ],
+    "rf_setpoint_w": [
+      1050.0,
+      1550.0
+    ],
+    "gas_setpoint_sccm": [
+      70.0,
+      125.0
+    ],
+    "matching_drift": [
+      0.0015,
+      0.0045
+    ],
+    "exhaust_drift": [
+      0.001,
+      0.003
+    ],
+    "rf_budget_gamma": [
+      9.0,
+      5.0
+    ],
+    "vacuum_budget_gamma": [
+      10.0,
+      4.0
+    ],
+    "stress_noise_sigma": 0.25
+  },
+  "cycles": 180,
+  "seed": 10101,
+  "horizon_hours": 12,
+  "label_rule": "First equipment-specific stress budget crossing in (t, t+12]; censored maintenance tails excluded",
+  "event_audit_file": "synthetic_cycle_events.csv",
+  "event_audit_sha256": "c73e23d255203cc66148a70a73a286c1073ac4f7649132e813b28a53ead19346",
+  "event_audit_is_model_input": false,
+  "maintenance_age_rule": "Elapsed hourly cycle time, starting at zero after each maintenance reset"
+}

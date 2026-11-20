@@ -1,0 +1,41 @@
+{
+  "machine_code": "CLN-101",
+  "model_version": "CLN101-SYN-RF-v1",
+  "data_origin": "Synthetic simulation, not actual equipment readings",
+  "prediction_target": "Simulated equipment failure within next 12 hours",
+  "trained_at_utc": "2026-11-13T15:32:57.489493+00:00",
+  "n_samples": {
+    "train": 9713,
+    "validation": 3208,
+    "test": 3337
+  },
+  "cycles": {
+    "train": 108,
+    "validation": 36,
+    "test": 36
+  },
+  "test_positive_rate": 0.11147737488762362,
+  "decision_threshold": 0.2,
+  "test_precision": 0.30672645739910315,
+  "test_recall": 0.9193548387096774,
+  "test_average_precision": 0.447847024285816,
+  "confusion_matrix_0_1": [
+    [
+      2192,
+      773
+    ],
+    [
+      30,
+      342
+    ]
+  ],
+  "feature_importance": {
+    "chamber_temperature_c": 0.0676392183982649,
+    "chamber_pressure_kpa": 0.05178328482710057,
+    "pump_vibration_mm_s": 0.24977033704693916,
+    "chemical_flow_l_min": 0.1067995159647929,
+    "filter_diff_pressure_kpa": 0.21358193322807462,
+    "motor_current_a": 0.1262789376949178,
+    "hours_since_maintenance": 0.18414677283991016
+  }
+}

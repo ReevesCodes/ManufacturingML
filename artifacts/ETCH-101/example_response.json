@@ -1,0 +1,11 @@
+{
+  "machineId": "ETCH-101",
+  "machineCode": "ETCH-101",
+  "failurePrediction": 0,
+  "failureProbability": 0.0,
+  "riskLevel": "LOW",
+  "predictionHorizonHours": 12,
+  "decisionThreshold": 0.25000000000000006,
+  "modelVersion": "ETCH-101-SYN-RF-v2",
+  "isSimulated": true
+}

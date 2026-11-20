@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.aws/
+.agents/
+.codex/
+/backups/
+/verification/
+/api_backup.py

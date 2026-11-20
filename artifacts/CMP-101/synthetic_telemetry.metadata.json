@@ -1,0 +1,77 @@
+{
+  "machine_code": "CMP-101",
+  "is_simulated": true,
+  "data_origin": "Synthetic equipment simulation; not real machine data",
+  "profile": {
+    "planned": [
+      120,
+      210
+    ],
+    "drift_a": [
+      0.0025,
+      0.0055
+    ],
+    "drift_b": [
+      0.0018,
+      0.0045
+    ],
+    "baseline": [
+      60.0,
+      25.0,
+      200.0,
+      30.0,
+      8.0,
+      0.5
+    ],
+    "noise": [
+      0.8,
+      0.5,
+      4,
+      0.6,
+      0.25,
+      0.12
+    ],
+    "response_a": [
+      -3,
+      8,
+      -70,
+      12,
+      5,
+      0.5
+    ],
+    "response_b": [
+      5,
+      2,
+      -10,
+      5,
+      2,
+      3
+    ],
+    "failure_modes": [
+      "pad_slurry_trip",
+      "platen_bearing_trip"
+    ],
+    "family": "polishing",
+    "simulator": "equipment-competing-stress-v1",
+    "seed": 40101,
+    "model_seed": 40108,
+    "model_version_suffix": "SYN-RF-v1",
+    "budget_a": [
+      9.0,
+      4.5
+    ],
+    "budget_b": [
+      7.0,
+      5.0
+    ],
+    "stress_noise_sigma": 0.3
+  },
+  "cycles": 180,
+  "seed": 40101,
+  "horizon_hours": 12,
+  "label_rule": "First equipment-specific stress budget crossing in (t, t+12]; censored maintenance tails excluded",
+  "event_audit_file": "synthetic_cycle_events.csv",
+  "event_audit_sha256": "732b34761a231ad16304537b960e37902bab24319e3e20e66903d98de6f9d819",
+  "event_audit_is_model_input": false,
+  "maintenance_age_rule": "Elapsed hourly cycle time, starting at zero after each maintenance reset"
+}
